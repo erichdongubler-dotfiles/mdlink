@@ -1,0 +1,50 @@
+general:
+  github:
+    orgs:
+      gfx-rs:
+        unmatched-repo-prefix: "repo-only"
+      ErichDonGubler:
+        repos:
+          moz-webgpu-cts:
+            prefix: repo-only
+
+profiles:
+  fx-webgpu: ~
+  wgpu:
+    github:
+      orgs:
+        gfx-rs:
+          repos:
+            wgpu:
+              prefix: none
+
+profiles:
+  # all: ~ # This always exists! You can uncomment it, if you want.
+  fx-webgpu: ~
+  wgpu:
+    inherits: fx-webgpu
+
+    github:
+      issues:
+        format: |
+          [{prefix}/#{issue_number}]({url})
+      prs:
+        format: {prefix}#{pr_number}
+      prefixes:
+        gfx-rs:
+          unmatched-repo-prefix:
+            - if profile == "wgpu" or profile == "fx-webgpu": `{repo}`
+        ErichDonGubler:
+          repos:
+            moz-webgpu-cts:
+              format: `{org}/{repo}`
+
+    profiles:
+      fx-webgpu: ~
+      wgpu:
+        github:
+          orgs:
+            gfx-rs:
+              repos:
+                wgpu:
+                  prefix: none

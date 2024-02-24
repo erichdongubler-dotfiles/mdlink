@@ -1,0 +1,4 @@
+extends = "fx-webgpu"
+
+[github.orgs.gfx-rs.repos.wgpu]
+prefix = "none"

@@ -1,0 +1,30 @@
+general {
+	github {
+		omit {
+			ErichDonGubler on-unmatched-repo="keep-org" {
+				moz-webgpu-cts
+			}
+		}
+	}
+}
+
+profiles {
+	mozilla-webgpu {
+		github {
+			omit {
+				org gfx-rs {
+					repo wgpu
+				}
+			}
+		}
+	}
+	wgpu {
+		github {
+			omit {
+				org gfx-rs {
+					repo wgpu
+				}
+			}
+		}
+	}
+}

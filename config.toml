@@ -1,0 +1,10 @@
+[general.github.orgs.gfx-rs]
+unmatched-repo-prefix = "repo-only"
+
+[general.github.orgs.ErichDonGubler.repos.moz-webgpu-cts]
+prefix = "repo-only"
+
+[profiles.wgpu.github.orgs.gfx-rs.repos.wgpu]
+prefix = "none"
+
+[profiles.fx-webgpu]
