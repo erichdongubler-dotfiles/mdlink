@@ -1,21 +1,42 @@
 profile "default" {
 	github {
-		// prs {
-		//	format "[{prefix}#{number}]"
-		// }
-		// issues {
-		//	format "[{prefix}#{number}]"
-		// }
-		prefix {
-			// format "`{org}/{repo}`"
-			org "ErichDonGubler" {
-				repo "moz-webgpu-cts" {
+		org "gfx-rs" {
+			prefix {
+				format "{repo}"
+			}
+		}
+		org "rustlang" {
+			repo "cargo" {
+				prefix {
 					format "{repo}"
 				}
 			}
-			org "gfx-rs" {
-				format "{repo}"
-				repo "wgpu" {
+			repo "rust" {
+				prefix {
+					format "{repo}"
+				}
+			}
+			repo "rustdoc" {
+				prefix {
+					format "{repo}"
+				}
+			}
+			repo "rustup" {
+				prefix {
+					format "{repo}"
+				}
+			}
+		}
+		org "ErichDonGubler" {
+			repo "moz-webgpu-cts" {
+				prefix {
+					format "{repo}"
+				}
+			}
+		}
+		org "gpuweb" {
+			repo "gpuweb" {
+				prefix {
 					format "{repo}"
 				}
 			}
@@ -24,10 +45,11 @@ profile "default" {
 }
 
 profile "wgpu" {
+	extends "default"
 	github {
-		prefix {
-			org "gfx-rs" {
-				repo "wgpu" {
+		org "gfx-rs" {
+			repo "wgpu" {
+				prefix {
 					format ""
 				}
 			}
@@ -35,4 +57,24 @@ profile "wgpu" {
 	}
 }
 
-profile "fx-webgpu"
+profile "fx-webgpu" {
+	extends "default"
+	// mozilla-bugzilla {
+	//	bug {
+	//		format "[bug {num}]({url})"
+	//	}
+	// }
+}
+
+profile "gpuweb" {
+	extends "default"
+	github {
+		org "gpuweb" {
+			repo "gpuweb" {
+				prefix {
+					format ""
+				}
+			}
+		}
+	}
+}
