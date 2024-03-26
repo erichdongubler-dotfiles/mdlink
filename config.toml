@@ -20,3 +20,9 @@ prefix = "repo-only"
 prefix = "none"
 
 [profiles.fx-webgpu]
+
+[profiles.gpuweb.github.orgs.gpuweb]
+unmatched-repo-prefix = "repo-only"
+
+[profiles.gpuweb.github.orgs.gpuweb.repos.gpuweb]
+prefix = "none"
