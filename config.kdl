@@ -1,30 +1,38 @@
-general {
+profile "default" {
 	github {
-		omit {
-			ErichDonGubler on-unmatched-repo="keep-org" {
-				moz-webgpu-cts
+		// prs {
+		//	format "[{prefix}#{number}]"
+		// }
+		// issues {
+		//	format "[{prefix}#{number}]"
+		// }
+		prefix {
+			// format "`{org}/{repo}`"
+			org "ErichDonGubler" {
+				repo "moz-webgpu-cts" {
+					format "{repo}"
+				}
+			}
+			org "gfx-rs" {
+				format "{repo}"
+				repo "wgpu" {
+					format "{repo}"
+				}
 			}
 		}
 	}
 }
 
-profiles {
-	mozilla-webgpu {
-		github {
-			omit {
-				org gfx-rs {
-					repo wgpu
-				}
-			}
-		}
-	}
-	wgpu {
-		github {
-			omit {
-				org gfx-rs {
-					repo wgpu
+profile "wgpu" {
+	github {
+		prefix {
+			org "gfx-rs" {
+				repo "wgpu" {
+					format ""
 				}
 			}
 		}
 	}
 }
+
+profile "fx-webgpu"
