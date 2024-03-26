@@ -16,6 +16,9 @@ prefix = "repo-only"
 [general.github.orgs.ErichDonGubler.repos.moz-webgpu-cts]
 prefix = "repo-only"
 
+[general.github.orgs.gpuweb.repos.gpuweb]
+prefix = "repo-only"
+
 [profiles.wgpu.github.orgs.gfx-rs.repos.wgpu]
 prefix = "none"
 
