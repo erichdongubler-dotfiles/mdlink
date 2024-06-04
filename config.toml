@@ -19,6 +19,9 @@ prefix = "repo-only"
 [general.github.orgs.gpuweb.repos.gpuweb]
 prefix = "repo-only"
 
+[general.github.orgs.rust-windowing.repos.glutin]
+prefix = "repo-only"
+
 [profiles.wgpu.github.orgs.gfx-rs.repos.wgpu]
 prefix = "none"
 

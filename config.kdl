@@ -41,6 +41,14 @@ profile "default" {
 				}
 			}
 		}
+
+		org "rust-windowing" {
+			repo "glutin" {
+				prefix {
+					format "{repo}"
+				}
+			}
+		}
 	}
 }
 
