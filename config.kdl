@@ -49,6 +49,14 @@ profile "default" {
 				}
 			}
 		}
+
+		org "BabylonJS" {
+			repo "Babylon.js" {
+				prefix {
+					format "{repo}"
+				}
+			}
+		}
 	}
 }
 

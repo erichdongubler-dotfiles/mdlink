@@ -22,6 +22,9 @@ prefix = "repo-only"
 [general.github.orgs.rust-windowing.repos.glutin]
 prefix = "repo-only"
 
+[general.github.orgs.BabylonJS.repos."Babylon.js"]
+prefix = "repo-only"
+
 [profiles.wgpu.github.orgs.gfx-rs.repos.wgpu]
 prefix = "none"
 
