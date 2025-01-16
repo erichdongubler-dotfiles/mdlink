@@ -19,7 +19,7 @@ prefix = "repo-only"
 [general.github.orgs.rust-lang.repos.rustup]
 prefix = "repo-only"
 
-[general.github.orgs.ErichDonGubler.repos.moz-webgpu-cts]
+[general.github.orgs.erichdongubler-mozilla.repos.moz-webgpu-cts]
 prefix = "repo-only"
 
 [general.github.orgs.gpuweb.repos.gpuweb]
