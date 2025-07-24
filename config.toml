@@ -7,6 +7,9 @@ prefix = "repo-only"
 [general.github.orgs.rust-lang.repos.rust]
 prefix = "repo-only"
 
+[general.github.orgs.rust-lang.repos.rust-clippy]
+prefix = "repo-only"
+
 [general.github.orgs.rust-lang.repos.rustdoc]
 prefix = "repo-only"
 
