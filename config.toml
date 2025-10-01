@@ -1,6 +1,9 @@
 [general.github.orgs.gfx-rs]
 unmatched-repo-prefix = "repo-only"
 
+[general.github.orgs.microsoft.repos.windows-rs]
+prefix = "repo-only"
+
 [general.github.orgs.rust-lang.repos.cargo]
 prefix = "repo-only"
 
