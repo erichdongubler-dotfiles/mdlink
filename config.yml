@@ -3,6 +3,9 @@ general:
     orgs:
       gfx-rs:
         unmatched-repo-prefix: "repo-only"
+      jj-vcs:
+        jj:
+          prefix: repo-only
       microsoft:
         windows-rs:
           prefix: repo-only

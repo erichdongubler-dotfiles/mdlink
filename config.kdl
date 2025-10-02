@@ -65,6 +65,14 @@ profile "default" {
 				}
 			}
 		}
+
+		org "jj-vcs" {
+			repo "jj" {
+				prefix {
+					format "{repo}"
+				}
+			}
+		}
 	}
 }
 

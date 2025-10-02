@@ -31,6 +31,9 @@ prefix = "repo-only"
 [general.github.orgs.BabylonJS.repos."Babylon.js"]
 prefix = "repo-only"
 
+[general.github.orgs.jj-vcs.repos.jj]
+prefix = "repo-only"
+
 [profiles.wgpu.github.orgs.gfx-rs.repos.wgpu]
 prefix = "none"
 

@@ -6,3 +6,6 @@ prefix = "repo-only"
 
 [github.orgs.microsoft.repos.windows-rs]
 prefix = "repo-only"
+
+[github.orgs.jj-vcs.repos.jj]
+prefix = "repo-only"
