@@ -3,3 +3,6 @@ unmatched-repo-prefix = "repo-only"
 
 [github.orgs.ErichDonGubler.repos.moz-webgpu-cts]
 prefix = "repo-only"
+
+[github.orgs.microsoft.repos.windows-rs]
+prefix = "repo-only"

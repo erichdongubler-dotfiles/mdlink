@@ -3,6 +3,9 @@ general:
     orgs:
       gfx-rs:
         unmatched-repo-prefix: "repo-only"
+      microsoft:
+        windows-rs:
+          prefix: repo-only
       ErichDonGubler:
         repos:
           moz-webgpu-cts:
