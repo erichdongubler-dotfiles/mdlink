@@ -9,3 +9,31 @@ prefix = "repo-only"
 
 [github.orgs.jj-vcs.repos.jj]
 prefix = "repo-only"
+
+[github.orgs.rust-lang.repos.cargo]
+prefix = "repo-only"
+
+[github.orgs.rust-lang.repos.rust]
+prefix = "repo-only"
+
+[github.orgs.rust-lang.repos.rust-clippy]
+prefix = "repo-only"
+
+[github.orgs.rust-lang.repos.rustdoc]
+prefix = "repo-only"
+
+[github.orgs.rust-lang.repos.rustup]
+prefix = "repo-only"
+
+[github.orgs.erichdongubler-mozilla.repos.moz-webgpu-cts]
+prefix = "repo-only"
+
+[github.orgs.gpuweb.repos.gpuweb]
+prefix = "repo-only"
+
+[github.orgs.rust-windowing.repos.glutin]
+prefix = "repo-only"
+
+[github.orgs.BabylonJS.repos."Babylon.js"]
+prefix = "repo-only"
+
