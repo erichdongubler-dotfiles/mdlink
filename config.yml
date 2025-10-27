@@ -13,6 +13,11 @@ general:
         repos:
           moz-webgpu-cts:
             prefix: repo-only
+  gitlab:
+    orgs:
+      ClearURLs:
+        ClearUrls:
+          unmatched-repo-prefix: "repo-only"
 
 profiles:
   fx-webgpu: ~

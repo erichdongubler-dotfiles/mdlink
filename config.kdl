@@ -74,6 +74,15 @@ profile "default" {
 			}
 		}
 	}
+	gitlab {
+		org "ClearURLs" {
+			repo "ClearUrls" {
+				prefix {
+					format "{repo}"
+				}
+			}
+		}
+	}
 }
 
 profile "wgpu" {

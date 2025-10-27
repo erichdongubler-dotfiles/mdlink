@@ -37,6 +37,9 @@ prefix = "repo-only"
 [profiles.wgpu.github.orgs.gfx-rs.repos.wgpu]
 prefix = "none"
 
+[general.gitlab.orgs.ClearURLs.repos.ClearUrls]
+prefix = "repo-only"
+
 [profiles.fx-webgpu]
 
 [profiles.gpuweb.github.orgs.gpuweb]

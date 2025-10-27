@@ -37,3 +37,5 @@ prefix = "repo-only"
 [github.orgs.BabylonJS.repos."Babylon.js"]
 prefix = "repo-only"
 
+[gitlab.orgs.ClearURLs.repos.ClearUrls]
+prefix = "repo-only"
