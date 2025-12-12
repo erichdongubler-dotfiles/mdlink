@@ -3,6 +3,8 @@ general:
     orgs:
       gfx-rs:
         unmatched-repo-prefix: "repo-only"
+      hackademix:
+        noscript: repo-only
       jj-vcs:
         jj:
           prefix: repo-only

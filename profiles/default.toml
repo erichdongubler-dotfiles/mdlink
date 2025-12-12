@@ -1,6 +1,9 @@
 [github.orgs.gfx-rs]
 unmatched-repo-prefix = "repo-only"
 
+[github.orgs.hackademix.repos.noscript]
+prefix = "repo-only"
+
 [github.orgs.ErichDonGubler.repos.moz-webgpu-cts]
 prefix = "repo-only"
 

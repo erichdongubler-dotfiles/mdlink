@@ -5,6 +5,15 @@ profile "default" {
 				format "{repo}"
 			}
 		}
+
+		org "hackademix" {
+			repo "noscript" {
+				prefix {
+					format "{repo}"
+				}
+			}
+		}
+
 		org "rustlang" {
 			repo "cargo" {
 				prefix {
