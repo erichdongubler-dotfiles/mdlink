@@ -11,6 +11,9 @@ general:
       microsoft:
         windows-rs:
           prefix: repo-only
+      mozilla-firefox:
+        firefox:
+          prefix: repo-only
       ErichDonGubler:
         repos:
           moz-webgpu-cts:

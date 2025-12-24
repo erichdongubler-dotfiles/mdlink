@@ -7,6 +7,9 @@ prefix = "repo-only"
 [general.github.orgs.microsoft.repos.windows-rs]
 prefix = "repo-only"
 
+[general.github.orgs.mozilla-firefox.repos.firefox]
+prefix = "repo-only"
+
 [general.github.orgs.rust-lang.repos.cargo]
 prefix = "repo-only"
 

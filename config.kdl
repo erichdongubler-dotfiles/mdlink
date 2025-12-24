@@ -75,6 +75,14 @@ profile "default" {
 			}
 		}
 
+		org "mozilla-firefox" {
+			repo "firefox" {
+				prefix {
+					format "{repo}"
+				}
+			}
+		}
+
 		org "jj-vcs" {
 			repo "jj" {
 				prefix {
