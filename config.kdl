@@ -90,6 +90,13 @@ profile "default" {
 				}
 			}
 		}
+		org "yozhgoor" {
+			repo "cargo-temp" {
+				prefix {
+					format "{repo}"
+				}
+			}
+		}
 	}
 	gitlab {
 		org "ClearURLs" {
